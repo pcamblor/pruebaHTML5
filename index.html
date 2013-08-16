@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Prueba</title>
+<title>Puzzle</title>
 <link rel="stylesheet" type="text/css" href="css/estilo.css" >
-</head>
-<body>
-<h1>Esto es una prueba cutre desde la clase</h1>
-<button type="button" onclick="pulsado(this)">No pulses!</button>
-
+<link href='http://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
 <script src="javascript/codigo.js"></script>
+</head>
+
+<body>
+<h1>PUZZLE: Que coche es?</h1>
+<p>
+ <canvas id="canvas" width="1024" height="600"></canvas>
+ <canvas id="canvas2" width="200" height="600"></canvas>
+</p>
+<button type="button" onclick="reiniciar(this)">Volver a jugar</button>
+<button type="button" onclick="solucionar(this)">Solucionar</button>
+<button type="button" onclick="ayuda(this)" id="ayuda">Ayuda</button>
 </body>
 </html>
